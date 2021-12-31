@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="09/08/21||22:57:44" using="Simscape Multibody Link Version 7.2" from="SolidWorks 28.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="total" uid="total" version="176">
+<AssemblyFile name="total.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="bar-2" uid="bar-2" entityUid="bar*:*默认">
+<Transform>
+<Rotation>-0.27793295092002351 -0.15581335113877881 -0.94787946195694717 0.15789466423797435 0.96592582628906798 -0.20507699313418534 0.94753498605490294 -0.20666276325135347 -0.2438605185085316</Rotation>
+<Translation>0.0021590909090909182 0.0090416429037343121 0.044999999999999978</Translation>
+</Transform>
+</Instance>
+<Instance name="base-1" uid="base-1" grounded="true" entityUid="base*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0021590909090909091 -0.0026439393939390841 0.045000000000000005</Translation>
+</Transform>
+</Instance>
+<Instance name="bar-1" uid="bar-1" entityUid="bar*:*默认">
+<Transform>
+<Rotation>0.60201655978237023 0 -0.79848360142697994 0 1 0 0.79848360142697994 0 0.60201655978237023</Rotation>
+<Translation>0.0021590909090909122 0.0013560606060609153 0.044999999999999984</Translation>
+</Transform>
+</Instance>
+<Instance name="camera_bar-2" uid="camera_bar-2" entityUid="camera_bar*:*默认">
+<Transform>
+<Rotation>0.99522581940381027 -0.060907098046514528 -0.076262007576295476 0.096111684535445288 0.74750376145007869 0.65726757923523293 0.016973876627739651 -0.66145933512615596 0.74978892729000091</Rotation>
+<Translation>0.0032168954492130275 -0.02696056998425566 -0.022339339192316638</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="重合1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0.0040000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bar-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0 0.0040000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bar-1</Uid>
+</InstancePath>
+<Position>0 0.02 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bar-1</Uid>
+</InstancePath>
+<Position>-0.021218882005531126 0.002 -0.03400000000000003</Position>
+<Axis>-0.25881904510252174 0.96592582628906798 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bar-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bar-1</Uid>
+</InstancePath>
+<Position>0.0010352761804100843 0.0038218789925170997 0</Position>
+<Axis>-0.25881904510252185 0.96592582628906809 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bar-2</Uid>
+</InstancePath>
+<Position>0 0.020000000000000004 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bar-2</Uid>
+</InstancePath>
+<Position>-0.021218882005531119 0.0020000000000000018 -0.034000000000000023</Position>
+<Axis>-0.25881904510252163 0.9659258262890682 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>camera_bar-2</Uid>
+</InstancePath>
+<Position>0.0030452339351582144 -0.010893222912852 0.078013824928659381</Position>
+<Axis>-1.2750217548429532e-16 -0.9659258262890682 -0.25881904510252168</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bar-2</Uid>
+</InstancePath>
+<Position>0.0010352761804100913 0.0038218789925171005 0</Position>
+<Axis>-0.25881904510252174 0.9659258262890682 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>camera_bar-2</Uid>
+</InstancePath>
+<Position>0.0030452339351582174 0.0084252936129293708 0.083190205830709824</Position>
+<Axis>-1.2750217548429532e-16 -0.9659258262890682 -0.25881904510252168</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="bar" uid="bar*:*默认" version="165">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bar.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0079408229864541303</Mass>
+<CenterOfMass>0.0043396116409741992 0.0039688260550639976 -5.7337168158221463e-10</CenterOfMass>
+<Inertia>1.0112753079111576e-06 1.7366332676922662e-06 8.6616781601264429e-07 9.9652590018353487e-15 -1.7991238572729162e-14 -1.1152300058952999e-07</Inertia>
+</MassProperties>
+<GeometryFile name="bar_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.88" g="0.88" b="0.88" a="1"/>
+<Emissive r="0.20999999999999999" g="0.20999999999999999" b="0.20999999999999999" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="base" uid="base*:*默认" version="157">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0058246734725068243</Mass>
+<CenterOfMass>0 0.0019981057536122846 0</CenterOfMass>
+<Inertia>6.8559896486377603e-07 1.3556900833073418e-06 6.8559896486377656e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="base_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.88" g="0.88" b="0.88" a="1"/>
+<Emissive r="0.20999999999999999" g="0.20999999999999999" b="0.20999999999999999" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="camera_bar" uid="camera_bar*:*默认" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="camera_bar.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.46733904570227813</Mass>
+<CenterOfMass>0.0030295530716927155 0.033772693556873581 0.088815263636405239</CenterOfMass>
+<Inertia>0.00045225889258461227 0.00052977827603097245 0.00052385102874731766 1.3449044303180066e-05 -6.447333677899885e-08 2.509935668810793e-07</Inertia>
+</MassProperties>
+<GeometryFile name="camera_bar_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

@@ -1,0 +1,27 @@
+\t (00:00:12) allegro 17.4 S012 Windows SPB 64-bit Edition
+\t (00:00:12)     Journal start - Wed Nov  3 18:55:49 2021
+\t (00:00:12)         Host=DESKTOP-A5RKU1T User=HUA Pid=100268 CPUs=8
+\t (00:00:12) CmdLine= C:\CadenceSPB\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:12) 
+   (00:00:12) Loading axlcore.cxt 
+\t (00:00:15) Starting new design...
+\i (00:00:15) trapsize 116667
+\i (00:00:16) generaledit 
+\i (00:00:19) open 
+\i (00:00:33) fillin "menu_cancel"
+\i (00:00:34) generaledit 
+\i (00:00:37) new 
+\i (00:00:48) newdrawfillin "menu_cancel"
+\i (00:00:48) generaledit 
+\i (00:00:50) open 
+\i (00:01:05) fillin "D:/Workspace_2021/AutoPhotoStation/LED_Matrix/hardware/libBuilder/qfnv-48n-7x7.dra"
+\i (00:01:05) cd "D:/Workspace_2021/AutoPhotoStation/LED_Matrix/hardware/libBuilder"
+\i (00:01:05) trapsize 1319
+\i (00:01:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\t (00:01:05) Opening existing design...
+\i (00:01:27) fillin yes 
+\i (00:01:28) trapsize 701
+\i (00:01:28) trapsize 737
+\i (00:01:28) trapsize 701
+\i (00:01:28) trapsize 714
+\t (00:01:28)     Journal end - Wed Nov  3 18:57:05 2021

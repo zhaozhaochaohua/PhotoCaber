@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Workspace_2021/AutoPhotoStation/LED_Matrix/software/esp32/untitled/FUJIFILM.cpp
+iostream
+D:/Workspace_2021/AutoPhotoStation/LED_Matrix/software/esp32/untitled/iostream
+FUJIFILM.h
+D:/Workspace_2021/AutoPhotoStation/LED_Matrix/software/esp32/untitled/FUJIFILM.h
+windows.h
+-
+
+D:/Workspace_2021/AutoPhotoStation/LED_Matrix/software/esp32/untitled/FUJIFILM.h
+XAPI.h
+D:/Workspace_2021/AutoPhotoStation/LED_Matrix/software/esp32/untitled/XAPI.H
+
+D:/Workspace_2021/AutoPhotoStation/LED_Matrix/software/esp32/untitled/XAPI.H
+windows.h
+-
+CoreFoundation/CoreFoundation.h
+-
+

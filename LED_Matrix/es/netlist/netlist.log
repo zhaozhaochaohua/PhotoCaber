@@ -1,0 +1,24 @@
+{ Using PSTWRITER 17.4.0 d001Nov-02-2021 at 23:41:18 }
+
+#1 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R4: SCHEMATIC1, USB (1.60, 3.70).
+#2 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U1: SCHEMATIC1, Core (5.80, 1.10).
+#3 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R3: SCHEMATIC1, USB (1.60, 3.00).
+#4 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R2: SCHEMATIC1, USB (4.20, 4.10).
+#5 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R1: SCHEMATIC1, Core (4.50, 2.20).
+#6 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance A1: SCHEMATIC1, Core (4.10, 1.55).
+#7 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance D1: SCHEMATIC1, BAT (4.30, 2.50).
+#8 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J6: SCHEMATIC1, Core (1.80, 5.60).
+#9 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J5: SCHEMATIC1, BAT (7.50, 2.60).
+#10 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R8: SCHEMATIC1, BAT (4.00, 2.40).
+#11 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance Q1A: SCHEMATIC1, USB (1.90, 3.00).
+#12 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J4: SCHEMATIC1, Core (1.60, 2.90).
+#13 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U5: SCHEMATIC1, Core (1.20, 0.80).
+#14 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R7: SCHEMATIC1, BAT (5.80, 2.60).
+#15 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J3: SCHEMATIC1, BAT (2.20, 2.50).
+#16 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U2: SCHEMATIC1, USB (3.80, 2.10).
+#17 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance U3: SCHEMATIC1, BAT (4.80, 2.60).
+#18 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J2: SCHEMATIC1, USB (7.40, 2.40).
+#19 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R6: SCHEMATIC1, USB (4.80, 1.40).
+#20 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance R5: SCHEMATIC1, USB (4.80, 1.30).
+#21 ERROR(ORCAP-36002): Property "PCB Footprint" missing from instance J1: SCHEMATIC1, USB (1.40, 1.70).
+#22 ERROR(ORCAP-36018): Netlisting cannot complete because of the errors listed above in the session log. Correct the errors and netlist design.

@@ -1,0 +1,5161 @@
+<Pack 
+ name="C0402"
+ assignedName="C0402"
+ useSetting="1"
+ useCalculatorSetting="0"
+ state="0"
+ Alt_Pin_List=""
+ units="0"
+ Category="SMD"
+ picture="CHIP.jpg"
+ Family="CAPC"
+ Calculator="CHIP"
+ Units="mm"
+ Library="D:\Workspace_2021\AutoPhotoStation\LED_Matrix\hardware\libsBuilder"
+ Jedec_Name=""
+ Description=""
+ Mfg=""
+ Mfg_Pkg_Name=""
+ Mfg_Pkg_Code=""
+ Mfg_Pkg_Desc=""
+ Address=""
+ npInfo=""
+ Fiducial=""
+ Thermal=""
+ Terminal="NoLead_1.6_Small"
+ Body_Orientation="R0"
+ Pin_Rotated=""
+ Pin_Mirror_Horiz=""
+ Pin_Mirror_Vert=""
+ Setting=""
+ Polarity_Marker=""
+ Polarity_Angle="0"
+ Polarity_Key_Width="0"
+ Polarity_Key_Height="0"
+ Pin_1_Start=""
+ Pin_1_Is_Mechanical=""
+ Pad_2_Location=""
+ Pin_1_Start_Angle="0"
+ Pins_Total="0"
+ Pins_Search="0"
+ Pin_Pitch="0"
+ Pin_Pitch_X="0"
+ Pin_Pitch_Y="0"
+ Pins_A="2"
+ Pins_B="0"
+ Pins_Row_1="0"
+ Pins_Row_2="0"
+ Pins_Row_3="0"
+ Pins_Row_4="0"
+ Pins_Row_5="0"
+ Pins_Row_6="0"
+ Pins_A2="0"
+ Pins_B2="0"
+ Pins_Offset_1=""
+ Pins_Offset_2=""
+ Pins_Offset_3=""
+ Pins_Offset_4=""
+ Pins_Offset_5=""
+ Pins_Offset_6=""
+ Pin_Center=""
+ Pins_Left="0"
+ Pins_Bottom="0"
+ Pins_Right="0"
+ Pins_Top="0"
+ Pin_Step_Left="0"
+ Pin_Step_Right="0"
+ Pull_Back="0"
+ A_Min="0"
+ A_Max="0"
+ A_Nom="0"
+ B_Min="0"
+ B_Max="0"
+ B_Nom="0"
+ Calculate_T_Value=""
+ T="0"
+ T_2="0"
+ T_Min="0"
+ T_Max="5000"
+ T_Nom="2500"
+ T2_Min="0"
+ T2_Max="0"
+ T2_Nom="0"
+ T3_Min="0"
+ W="0"
+ W_2="0"
+ W_Min="3000"
+ W_Max="7000"
+ W_Nom="5000"
+ W2_Min="0"
+ W2_Max="0"
+ W2_Nom="0"
+ T_Thermal="0"
+ W_Thermal="0"
+ Paste_Mask_Reduce="0"
+ Rd_Thermal="0"
+ Ch_Thermal="0"
+ H_Max="5000"
+ H_Max_Offset="0"
+ K_Height="0"
+ K_Width="0"
+ TC="0"
+ S="0"
+ S1_Min="0"
+ S1_Max="0"
+ S1_Nom="0"
+ S2_Min="0"
+ S2_Max="0"
+ S2_Nom="0"
+ L_Min="8000"
+ L_Max="12000"
+ L_Nom="10000"
+ L1_Min="0"
+ L1_Max="0"
+ L1_Nom="0"
+ L2_Min="0"
+ L2_Max="0"
+ L2_Nom="0"
+ Ball_Type=""
+ Ball_Size="0"
+ Lead_Size="0"
+ Lead_Size_Min="0"
+ Lead_Size_Max="0"
+ Lead_Size_X="0"
+ Lead_Size_Y="0"
+ Thru_Hole_Wire_Length="0"
+ Thickness="0"
+ Mount_Style=""
+ Body_Style=""
+ Include_Flange=""
+ LED_Color=""
+ Sections=""
+ Pin_Syntax=""
+ A="0"
+ B="0"
+ C="0"
+ D="0"
+ E="0"
+ F="0"
+ G="0"
+ H="0"
+ J="0"
+ K="0"
+ A_2="0"
+ B_2="0"
+ Mount_Pins="0"
+ Mount_Annular_Ring="0"
+ Mount_Drill_Size="0"
+ Mount_Size_T="0"
+ Mount_Size_W="0"
+ Courtyard_Excess="0"
+ Naming_Place_Grid="0"
+ padShapeOverride="0"
+ Pad_Shape="Round_Rectangle"
+ Pad_Shape_Pin_1=""
+ Pin_Style=""
+ Pin_Thickness="0"
+ Pin_Body_Height="0"
+ lastVarianceSeq="0"
+ origin="(0:0)"
+ origin_pin=""
+ originType=""
+>
+
+<View 
+ name="package"
+ aliasName=""
+ assignedName=""
+ partType="0"
+ viewType="10"
+ bBox="((-10200:-5100)(10200:5400))"
+ cBox="((-9200:-4100)(9200:4100))"
+ rotation="0"
+ origin="(0:0)"
+ width="0"
+ height="0"
+>
+
+<Pin 
+ bBox="((-7700:-2600)(-2300:2600))"
+ cBox="((-5000:-2500)(-2500:2500))"
+ color="0"
+ row="0"
+ portName=""
+ busName=""
+ signalName=""
+ pinName=""
+ aliasName=""
+ annotatedName=""
+ pinText=""
+ signalType="0"
+ pinType="0"
+ bitNumber="0"
+ msb="0"
+ lsb="0"
+ padType="0"
+ padName="r54_52r6"
+ pinNumber="1"
+ pinNumberSwaps=""
+ hotSpot="(0:0)"
+ origin="(-5000:0)"
+ rotation="0"
+ matrix="(0:0)"
+ direction="0"
+ function="0"
+ mechanicalElectrical="0"
+ gate=""
+ gateSwap=""
+ pinSwap=""
+ terminate=""
+ annotate=""
+ symbol="0"
+ side="3"
+ position="0"
+ sequence="0"
+ bank=""
+ standard=""
+ voltage=""
+ group=""
+ scratch1=""
+ scratch2=""
+ scratch3=""
+ scratch4=""
+ scratch5=""
+>
+
+<Label 
+ label="1"
+ aliasLabel=""
+ bBox="((-5666:-833)(-4334:833))"
+ origin="(-5000:0)"
+ justify="4"
+ rotation="0"
+ height="1666"
+ color="0"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+</Pin>
+
+<Pin 
+ bBox="((2300:-2600)(7700:2600))"
+ cBox="((2500:-2500)(5000:2500))"
+ color="0"
+ row="0"
+ portName=""
+ busName=""
+ signalName=""
+ pinName=""
+ aliasName=""
+ annotatedName=""
+ pinText=""
+ signalType="0"
+ pinType="0"
+ bitNumber="0"
+ msb="0"
+ lsb="0"
+ padType="0"
+ padName="r54_52r6"
+ pinNumber="2"
+ pinNumberSwaps=""
+ hotSpot="(0:0)"
+ origin="(5000:0)"
+ rotation="2"
+ matrix="(0:0)"
+ direction="0"
+ function="0"
+ mechanicalElectrical="0"
+ gate=""
+ gateSwap=""
+ pinSwap=""
+ terminate=""
+ annotate=""
+ symbol="0"
+ side="1"
+ position="0"
+ sequence="0"
+ bank=""
+ standard=""
+ voltage=""
+ group=""
+ scratch1=""
+ scratch2=""
+ scratch3=""
+ scratch4=""
+ scratch5=""
+>
+
+<Label 
+ label="2"
+ aliasLabel=""
+ bBox="((4334:-833)(5666:833))"
+ origin="(5000:0)"
+ justify="4"
+ rotation="0"
+ height="1666"
+ color="0"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+</Pin>
+
+<Layer 
+ name="comp_dimension"
+ bBox="((-10100:-5000)(5000:5400))"
+ color="20"
+ visibility="0"
+ fill="1"
+ pattern="0"
+ purpose="2"
+ selectable="1"
+>
+
+<Polygon 
+ bBox="((-5000:5240)(-4760:5360))"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-4760:5360)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-4760:5240)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:5300)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((4760:5240)(5000:5360))"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(5000:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(4760:5360)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(4760:5240)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(5000:5300)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((-5240:-4960)(-5000:-4840))"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:-4900)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5240:-4840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5240:-4960)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:-4900)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((-2500:-4960)(-2260:-4840))"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2500:-4900)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2260:-4840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2260:-4960)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2500:-4900)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((-10060:-2740)(-9940:-2500))"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:-2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10060:-2740)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9940:-2740)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:-2500)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((-10060:2500)(-9940:2740))"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10060:2740)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9940:2740)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:2500)"
+>
+
+</Points>
+
+</Polygon>
+
+<Path 
+ bBox="((-5000:5300)(-1472:5300))"
+ layer="0"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-1472:5300)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((1472:5300)(5000:5300))"
+ layer="0"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(1472:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(5000:5300)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((-5000:4200)(-5000:5400))"
+ layer="0"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:5400)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((5000:4200)(5000:5400))"
+ layer="0"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(5000:4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(5000:5400)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((-5000:-5000)(-5000:-4200))"
+ layer="0"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:-4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:-5000)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((-2500:-5000)(-2500:-4200))"
+ layer="0"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2500:-4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2500:-5000)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((-5736:-4900)(-5000:-4900))"
+ layer="0"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:-4900)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5736:-4900)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((-2500:-4900)(-1764:-4900))"
+ layer="0"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2500:-4900)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-1764:-4900)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((-10000:-2900)(-10000:-2500))"
+ layer="0"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:-2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:-2900)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((-10000:2500)(-10000:2900))"
+ layer="0"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:2900)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:2500)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((-10100:-2500)(-9300:-2500))"
+ layer="0"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9300:-2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10100:-2500)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((-10100:2500)(-9300:2500))"
+ layer="0"
+ color="20"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9300:2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10100:2500)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="D=1.0000"
+ aliasLabel=""
+ bBox="((-1177:5116)(1177:5484))"
+ origin="(0:5300)"
+ justify="4"
+ rotation="0"
+ height="368"
+ color="20"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Label 
+ label="L=0.2500"
+ aliasLabel=""
+ bBox="((-1764:-5084)(591:-4716))"
+ origin="(-1764:-4900)"
+ justify="3"
+ rotation="0"
+ height="368"
+ color="20"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Label 
+ label="E=0.5000"
+ aliasLabel=""
+ bBox="((-10184:-1177)(-9816:1177))"
+ origin="(-10000:0)"
+ justify="4"
+ rotation="1"
+ height="368"
+ color="20"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+</Layer>
+
+<Layer 
+ name="land_dimension"
+ bBox="((0:0)(0:0))"
+ color="21"
+ visibility="1"
+ fill="1"
+ pattern="0"
+ purpose="2"
+ selectable="1"
+>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10060:-2840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9940:-2840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:-2600)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10060:2840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9940:2840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:2600)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:4900)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7940:4960)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7940:4840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:4900)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2300:4900)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2060:4960)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2060:4840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2300:4900)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7460:5360)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7460:5240)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:5300)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7700:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7460:5360)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7460:5240)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7700:5300)"
+>
+
+</Points>
+
+</Polygon>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:-3000)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:3000)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:2600)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9300:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10100:-2600)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9300:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10100:2600)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:5000)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2300:4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2300:5000)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:4900)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-8100:4900)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2300:4900)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-1900:4900)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-1104:5300)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(1104:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7700:5300)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:5400)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="21"
+ fill="1"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7700:4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7700:5400)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="0.5200"
+ aliasLabel=""
+ bBox="((-10184:-883)(-9816:883))"
+ origin="(-10000:0)"
+ justify="4"
+ rotation="1"
+ height="368"
+ color="21"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Label 
+ label="0.5400"
+ aliasLabel=""
+ bBox="((-1900:4716)(-134:5084))"
+ origin="(-1900:4900)"
+ justify="3"
+ rotation="0"
+ height="368"
+ color="21"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Label 
+ label="1.5400"
+ aliasLabel=""
+ bBox="((-883:5116)(883:5484))"
+ origin="(0:5300)"
+ justify="4"
+ rotation="0"
+ height="368"
+ color="21"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+</Layer>
+
+<Layer 
+ name="courtyard_top"
+ bBox="((-9200:-4100)(9200:4100))"
+ color="15"
+ visibility="0"
+ fill="0"
+ pattern="0"
+ purpose="0"
+ selectable="0"
+>
+
+<Path 
+ bBox="((-9200:-4100)(9200:4100))"
+ layer="0"
+ color="15"
+ fill="0"
+ pattern="0"
+ width="500"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9200:-4100)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9200:4100)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(9200:4100)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(9200:-4100)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9200:-4100)"
+>
+
+</Points>
+
+</Path>
+
+</Layer>
+
+<Layer 
+ name="Dfa_Bound_Top"
+ bBox="((-7700:-2600)(7700:2600))"
+ color="22"
+ visibility="1"
+ fill="0"
+ pattern="15"
+ purpose="2"
+ selectable="1"
+>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="10"
+>
+
+</Path>
+
+<Path 
+ bBox="((-7700:-2600)(7700:2600))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7700:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7700:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:-2600)"
+>
+
+</Points>
+
+</Path>
+
+</Layer>
+
+<Layer 
+ name="No_Probe_Top"
+ bBox="((-10200:-5100)(10200:5100))"
+ color="23"
+ visibility="1"
+ fill="0"
+ pattern="15"
+ purpose="2"
+ selectable="1"
+>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="10"
+>
+
+</Path>
+
+<Path 
+ bBox="((-10200:-5100)(10200:5100))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10200:-5100)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10200:5100)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10200:5100)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10200:-5100)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10200:-5100)"
+>
+
+</Points>
+
+</Path>
+
+</Layer>
+
+<Layer 
+ name="assy_top"
+ bBox="((-5000:-2500)(5000:2500))"
+ color="13"
+ visibility="1"
+ fill="1"
+ pattern="2"
+ purpose="0"
+ selectable="1"
+>
+
+<Path 
+ bBox="((-5000:-2500)(5000:2500))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="1000"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(5000:2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(5000:-2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:-2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(5000:2500)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="Ref"
+ aliasLabel=""
+ bBox="((0:0)(0:0))"
+ origin="(0:0)"
+ justify="4"
+ rotation="0"
+ height="5000"
+ color="0"
+ labelType="1"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+</Layer>
+
+<Layer 
+ name="silk_top"
+ bBox="((0:-2500)(0:2500))"
+ color="11"
+ visibility="1"
+ fill="1"
+ pattern="4"
+ purpose="0"
+ selectable="1"
+>
+
+<Path 
+ bBox="((0:-2500)(0:2500))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="2000"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(0:-2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(0:2500)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="Ref"
+ aliasLabel=""
+ bBox="((0:0)(0:0))"
+ origin="(0:5000)"
+ justify="1"
+ rotation="0"
+ height="5000"
+ color="0"
+ labelType="1"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Label 
+ label="Dev"
+ aliasLabel=""
+ bBox="((0:0)(0:0))"
+ origin="(0:5000)"
+ justify="1"
+ rotation="0"
+ height="5000"
+ color="0"
+ labelType="40"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+</Layer>
+
+<Layer 
+ name="component"
+ bBox="((-5000:-2500)(5000:2500))"
+ color="1"
+ visibility="0"
+ fill="0"
+ pattern="0"
+ purpose="0"
+ selectable="1"
+>
+
+<Rectangle 
+ bBox="((-5000:-2500)(5000:2500))"
+ color="1"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+</Rectangle>
+
+</Layer>
+
+<Layer 
+ name="scratch1"
+ bBox="((0:0)(0:0))"
+ color="25"
+ visibility="1"
+ fill="0"
+ pattern="14"
+ purpose="2"
+ selectable="1"
+>
+
+<Rectangle 
+ bBox="((-7700:-2600)(7700:2600))"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+</Rectangle>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+ shape="13"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7075:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7184:-2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7289:-2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7388:-2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7477:-2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7554:-2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7616:-2287)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7662:-2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7691:-2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:-1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7691:2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7662:2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7616:2288)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7554:2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7477:2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7387:2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7289:2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7184:2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7075:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2925:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2816:2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2711:2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2612:2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2523:2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2446:2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2384:2287)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2338:2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2309:2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2300:1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2300:-1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2309:-2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2338:-2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2384:-2288)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2446:-2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2523:-2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2613:-2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2711:-2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2816:-2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2925:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7075:-2600)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+ shape="13"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7075:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7184:2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7289:2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7388:2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7477:2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7554:2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7616:2287)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7662:2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7691:2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7700:1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7700:-1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7691:-2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7662:-2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7616:-2288)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7554:-2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7477:-2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7387:-2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7289:-2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7184:-2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7075:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2925:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2816:-2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2711:-2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2612:-2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2523:-2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2446:-2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2384:-2287)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2338:-2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2309:-2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2300:-1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2300:1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2309:2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2338:2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2384:2288)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2446:2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2523:2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2613:2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2711:2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2816:2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2925:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7075:2600)"
+>
+
+</Points>
+
+</Polygon>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2300:4900)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2024:4900)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2024:4900)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2300:4900)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2300:4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2300:5000)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2300:4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2300:5000)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2024:5300)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2024:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7700:5300)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-7700:5400)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7700:4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(7700:5400)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10400:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10400:-3000)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10400:3000)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10400:2600)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(9300:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10500:-2600)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(9300:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10500:2600)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="IELR=0.4600"
+ aliasLabel=""
+ bBox="((0:0)(0:0))"
+ origin="(0:4900)"
+ justify="4"
+ rotation="0"
+ height="368"
+ color="0"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Label 
+ label="OELR=1.5400"
+ aliasLabel=""
+ bBox="((0:0)(0:0))"
+ origin="(0:5300)"
+ justify="4"
+ rotation="0"
+ height="368"
+ color="0"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Label 
+ label="0.5200"
+ aliasLabel=""
+ bBox="((0:0)(0:0))"
+ origin="(10400:-3200)"
+ justify="5"
+ rotation="1"
+ height="368"
+ color="0"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+</Layer>
+
+<Layer 
+ name="scratch3"
+ bBox="((0:0)(0:0))"
+ color="27"
+ visibility="1"
+ fill="0"
+ pattern="14"
+ purpose="2"
+ selectable="1"
+>
+
+<Rectangle 
+ bBox="((-5000:-2600)(5000:2600))"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+</Rectangle>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="0"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-4760:5360)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-4760:5240)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:5300)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="0"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(5000:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(4760:5360)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(4760:5240)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(5000:5300)"
+>
+
+</Points>
+
+</Polygon>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2024:5300)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2024:5300)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(5000:5300)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-5000:5400)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(5000:4200)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(5000:5400)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="CPLR=1.0000"
+ aliasLabel=""
+ bBox="((0:0)(0:0))"
+ origin="(0:5300)"
+ justify="4"
+ rotation="0"
+ height="368"
+ color="0"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+</Layer>
+
+<Layer 
+ name="scratch6"
+ bBox="((0:0)(0:0))"
+ color="30"
+ visibility="1"
+ fill="0"
+ pattern="14"
+ purpose="2"
+ selectable="1"
+>
+
+<Rectangle 
+ bBox="((2300:-2600)(7700:2600))"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+</Rectangle>
+
+<Rectangle 
+ bBox="((-7700:-2600)(-2300:2600))"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+</Rectangle>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="0"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10060:-2840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9940:-2840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:-2600)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="0"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10060:2840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9940:2840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:2600)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="0"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10000:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(9940:-2840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10060:-2840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10000:-2600)"
+>
+
+</Points>
+
+</Polygon>
+
+<Polygon 
+ bBox="((0:0)(0:0))"
+ color="0"
+ fill="1"
+ pattern="0"
+ width="0"
+ shape="0"
+ cornerRadius="0"
+ chamfer="0"
+ lr="0"
+ ll="0"
+ ur="0"
+ ul="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10000:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(9940:2840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10060:2840)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10000:2600)"
+>
+
+</Points>
+
+</Polygon>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:-3000)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:3000)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10000:2600)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9300:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10100:-2600)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-9300:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-10100:2600)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10000:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10000:-3000)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10000:3000)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10000:2600)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(9300:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10100:-2600)"
+>
+
+</Points>
+
+</Path>
+
+<Path 
+ bBox="((0:0)(0:0))"
+ layer="0"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(9300:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(10100:2600)"
+>
+
+</Points>
+
+</Path>
+
+<Label 
+ label="0.5200"
+ aliasLabel=""
+ bBox="((0:0)(0:0))"
+ origin="(-10000:-3300)"
+ justify="5"
+ rotation="1"
+ height="368"
+ color="0"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+<Label 
+ label="0.5200"
+ aliasLabel=""
+ bBox="((0:0)(0:0))"
+ origin="(10000:-3200)"
+ justify="5"
+ rotation="1"
+ height="368"
+ color="0"
+ labelType="0"
+ visibility="0"
+ relativeOrigin="0"
+ offset="(0:0)"
+>
+
+</Label>
+
+</Layer>
+
+<Layer 
+ name="DRC"
+ bBox="((0:0)(0:0))"
+ color="24"
+ visibility="0"
+ fill="2"
+ pattern="6"
+ purpose="2"
+ selectable="1"
+>
+
+</Layer>
+
+</View>
+
+<View 
+ name="r54_52r6"
+ aliasName=""
+ assignedName=""
+ partType="0"
+ viewType="13"
+ bBox="((-2700:-2600)(2700:2600))"
+ cBox="((0:-2500)(2500:2500))"
+ rotation="0"
+ origin="(1250:0)"
+ width="0"
+ height="0"
+>
+
+<Layer 
+ name="paste_mask_top"
+ bBox="((-3950:-2600)(1450:2600))"
+ color="4"
+ visibility="1"
+ fill="2"
+ pattern="14"
+ purpose="0"
+ selectable="0"
+>
+
+<Polygon 
+ bBox="((-3950:-2600)(1450:2600))"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+ shape="4"
+ cornerRadius="625"
+ chamfer="0"
+ lr="1"
+ ll="1"
+ ur="1"
+ ul="1"
+>
+
+<Points 
+ xyType="1"
+ angle="270"
+ xy="(-2075:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="260"
+ xy="(-2184:-2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="250"
+ xy="(-2289:-2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="240"
+ xy="(-2388:-2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="230"
+ xy="(-2477:-2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="220"
+ xy="(-2554:-2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="210"
+ xy="(-2616:-2287)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="200"
+ xy="(-2662:-2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="190"
+ xy="(-2691:-2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="180"
+ xy="(-2700:-1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="180"
+ xy="(-2700:1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="170"
+ xy="(-2691:2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="160"
+ xy="(-2662:2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="150"
+ xy="(-2616:2288)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="140"
+ xy="(-2554:2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="130"
+ xy="(-2477:2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="120"
+ xy="(-2387:2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="110"
+ xy="(-2289:2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="100"
+ xy="(-2184:2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="90"
+ xy="(-2075:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="90"
+ xy="(2075:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="80"
+ xy="(2184:2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="70"
+ xy="(2289:2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="60"
+ xy="(2388:2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="50"
+ xy="(2477:2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="40"
+ xy="(2554:2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="30"
+ xy="(2616:2287)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="20"
+ xy="(2662:2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="10"
+ xy="(2691:2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="0"
+ xy="(2700:1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="360"
+ xy="(2700:-1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="350"
+ xy="(2691:-2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="340"
+ xy="(2662:-2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="330"
+ xy="(2616:-2288)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="320"
+ xy="(2554:-2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="310"
+ xy="(2477:-2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="300"
+ xy="(2387:-2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="290"
+ xy="(2289:-2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="280"
+ xy="(2184:-2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="270"
+ xy="(2075:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2075:-2600)"
+>
+
+</Points>
+
+</Polygon>
+
+</Layer>
+
+<Layer 
+ name="solder_mask_top"
+ bBox="((-3950:-2600)(1450:2600))"
+ color="3"
+ visibility="1"
+ fill="2"
+ pattern="6"
+ purpose="0"
+ selectable="0"
+>
+
+<Polygon 
+ bBox="((-3950:-2600)(1450:2600))"
+ color="0"
+ fill="0"
+ pattern="0"
+ width="0"
+ shape="4"
+ cornerRadius="625"
+ chamfer="0"
+ lr="1"
+ ll="1"
+ ur="1"
+ ul="1"
+>
+
+<Points 
+ xyType="1"
+ angle="270"
+ xy="(-2075:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="260"
+ xy="(-2184:-2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="250"
+ xy="(-2289:-2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="240"
+ xy="(-2388:-2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="230"
+ xy="(-2477:-2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="220"
+ xy="(-2554:-2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="210"
+ xy="(-2616:-2287)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="200"
+ xy="(-2662:-2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="190"
+ xy="(-2691:-2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="180"
+ xy="(-2700:-1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="180"
+ xy="(-2700:1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="170"
+ xy="(-2691:2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="160"
+ xy="(-2662:2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="150"
+ xy="(-2616:2288)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="140"
+ xy="(-2554:2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="130"
+ xy="(-2477:2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="120"
+ xy="(-2387:2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="110"
+ xy="(-2289:2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="100"
+ xy="(-2184:2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="90"
+ xy="(-2075:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="90"
+ xy="(2075:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="80"
+ xy="(2184:2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="70"
+ xy="(2289:2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="60"
+ xy="(2388:2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="50"
+ xy="(2477:2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="40"
+ xy="(2554:2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="30"
+ xy="(2616:2287)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="20"
+ xy="(2662:2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="10"
+ xy="(2691:2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="0"
+ xy="(2700:1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="360"
+ xy="(2700:-1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="350"
+ xy="(2691:-2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="340"
+ xy="(2662:-2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="330"
+ xy="(2616:-2288)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="320"
+ xy="(2554:-2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="310"
+ xy="(2477:-2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="300"
+ xy="(2387:-2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="290"
+ xy="(2289:-2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="280"
+ xy="(2184:-2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="270"
+ xy="(2075:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2075:-2600)"
+>
+
+</Points>
+
+</Polygon>
+
+</Layer>
+
+<Layer 
+ name="pad_top"
+ bBox="((-3950:-2600)(1450:2600))"
+ color="2"
+ visibility="0"
+ fill="2"
+ pattern="15"
+ purpose="0"
+ selectable="0"
+>
+
+<Polygon 
+ bBox="((-3950:-2600)(1450:2600))"
+ color="2"
+ fill="2"
+ pattern="15"
+ width="0"
+ shape="4"
+ cornerRadius="625"
+ chamfer="0"
+ lr="1"
+ ll="1"
+ ur="1"
+ ul="1"
+>
+
+<Points 
+ xyType="1"
+ angle="270"
+ xy="(-2075:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="260"
+ xy="(-2184:-2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="250"
+ xy="(-2289:-2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="240"
+ xy="(-2388:-2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="230"
+ xy="(-2477:-2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="220"
+ xy="(-2554:-2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="210"
+ xy="(-2616:-2287)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="200"
+ xy="(-2662:-2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="190"
+ xy="(-2691:-2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="180"
+ xy="(-2700:-1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="180"
+ xy="(-2700:1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="170"
+ xy="(-2691:2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="160"
+ xy="(-2662:2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="150"
+ xy="(-2616:2288)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="140"
+ xy="(-2554:2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="130"
+ xy="(-2477:2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="120"
+ xy="(-2387:2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="110"
+ xy="(-2289:2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="100"
+ xy="(-2184:2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="90"
+ xy="(-2075:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="90"
+ xy="(2075:2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="80"
+ xy="(2184:2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="70"
+ xy="(2289:2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="60"
+ xy="(2388:2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="50"
+ xy="(2477:2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="40"
+ xy="(2554:2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="30"
+ xy="(2616:2287)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="20"
+ xy="(2662:2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="10"
+ xy="(2691:2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="0"
+ xy="(2700:1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="360"
+ xy="(2700:-1975)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="350"
+ xy="(2691:-2084)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="340"
+ xy="(2662:-2189)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="330"
+ xy="(2616:-2288)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="320"
+ xy="(2554:-2377)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="310"
+ xy="(2477:-2454)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="300"
+ xy="(2387:-2516)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="290"
+ xy="(2289:-2562)"
+>
+
+</Points>
+
+<Points 
+ xyType="2"
+ angle="280"
+ xy="(2184:-2591)"
+>
+
+</Points>
+
+<Points 
+ xyType="1"
+ angle="270"
+ xy="(2075:-2600)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(-2075:-2600)"
+>
+
+</Points>
+
+</Polygon>
+
+</Layer>
+
+<Layer 
+ name="component"
+ bBox="((0:0)(0:0))"
+ color="1"
+ visibility="0"
+ fill="0"
+ pattern="0"
+ purpose="0"
+ selectable="1"
+>
+
+<Path 
+ bBox="((-1250:-2500)(1250:2500))"
+ layer="0"
+ color="1"
+ fill="0"
+ pattern="0"
+ width="0"
+>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(0:-2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(0:2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2500:2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(2500:-2500)"
+>
+
+</Points>
+
+<Points 
+ xyType="0"
+ angle="0"
+ xy="(0:-2500)"
+>
+
+</Points>
+
+</Path>
+
+</Layer>
+
+</View>
+
+<PadStack 
+ name="NoLead_1.6_Small"
+ assignedName1=""
+ assignedName2=""
+ MGCPadType="0"
+ Options="None"
+ Use_Settings=""
+ Calculator="No Lead"
+ Hole_Calculator=""
+ Pad_Shape="Round_Rectangle"
+ Pad_Shape_Pin_1=""
+ Pad_Type=""
+ Auto_Trim_Under_Body=""
+ Ball_Size_Min="0"
+ Ball_Size_Max="0"
+ Lead_Size_Min="0"
+ Lead_Size_Max="0"
+ Range_Low="0"
+ Range_High="16000"
+ T="0"
+ W="0"
+ Ball_Type=""
+ Fabrication_Tol="500"
+ Placement_Tol="500"
+ Land_Geometry_Snap="100"
+ Adjustment="0"
+ Variation="0"
+ Solder_Mask_Excess="0"
+ Paste_Mask_Excess="0"
+ Corner_Radius="625"
+ Chamfer="625"
+ lr="1"
+ ll="1"
+ ur="1"
+ ul="1"
+ Angle="0"
+ Toe_Max="3000"
+ Heel_Max="0"
+ Side_Max="500"
+ Toe_Nom="2500"
+ Heel_Nom="-3000"
+ Side_Nom="-1000"
+ Toe_Min="1000"
+ Heel_Min="0"
+ Side_Min="-500"
+ Toe_User="0"
+ Heel_User="0"
+ Side_User="0"
+ Courtyard_Excess_Max="2000"
+ Courtyard_Excess_Nom="1500"
+ Courtyard_Excess_Min="1000"
+ Courtyard_Excess_User="0"
+ Dfa_Bound_Top_Excess="0"
+ No_Probe_Top_Excess="2500"
+ Drill_Size="0"
+ Drill_Size_Nom="0"
+ Drill_Size_Max="0"
+ Drill_Size_Min="0"
+ Annular_Ring="0"
+ Annular_Ring_Nom="0"
+ Annular_Ring_Min="0"
+ Annular_Ring_Max="0"
+ Hole_Over_Lead_Min="0"
+ Hole_Over_Lead_Nom="0"
+ Hole_Over_Lead_Max="0"
+ Alt_Drill_Size="0"
+ Alt_Annular_Ring="0"
+ Fab_Allowance_Min="0"
+ Fab_Allowance_Nom="0"
+ Fab_Allowance_Max="0"
+ Thermal_ID_Hole_Min="0"
+ Thermal_ID_Hole_Nom="0"
+ Thermal_ID_Hole_Max="0"
+ Thermal_OD_Hole_Min="0"
+ Thermal_OD_Hole_Nom="0"
+ Thermal_OD_Hole_Max="0"
+ X_User="0"
+ Y_User="0"
+ X2_User="0"
+ Y2_User="0"
+ Mount_Size_X="0"
+ Mount_Size_Y="0"
+ DX_Center_Land="0"
+ DX_Extend_Land="0"
+ DY_Center_Land="0"
+ DY_Extend_Land="0"
+ User_Specified="0"
+ T_Thermal="20000"
+ W_Thermal="20000"
+ rows="2"
+ columns="2"
+ Row_Offset="0"
+ Column_Offset="0"
+ Placement_Grid_X="0"
+ Placement_Grid_Y="0"
+ Paste_Mask_X_Size="9000"
+ Paste_Mask_Y_Size="3500"
+ Thermal_Solder_Excess="0"
+ Via_Stack_Name="VIA10"
+ Via_Hole_Size="2540"
+ Via_Pad_Size_Top="3000"
+ Via_Pad_Size_Bottom="3000"
+ Via_Solder_Mask_Top="0"
+ Via_Solder_Mask_Bottom="0"
+ Via_Paste_Mask_Top="0"
+ Via_Paste_Mask_Bottom="0"
+>
+
+</PadStack>
+
+</Pack>
+

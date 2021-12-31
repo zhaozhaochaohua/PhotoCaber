@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="07/29/21||22:04:26" using="Simscape Multibody Link Version 7.2" from="SolidWorks 28.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="test1" uid="test1" version="163">
+<AssemblyFile name="test1.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="grd-1" uid="grd-1" grounded="true" entityUid="grd*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00073110345601590243 -0.0062880108688098315 0.029999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="p0-4" uid="p0-4" entityUid="p0*:*默认">
+<Transform>
+<Rotation>0.92387953251128652 -0.38268343236509061 0 0.38268343236509061 0.92387953251128652 0 0 0 1</Rotation>
+<Translation>0.00073110345601590937 0.0087119891311901679 0.029999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="p0-5" uid="p0-5" entityUid="p0*:*默认">
+<Transform>
+<Rotation>0.70710678118654646 -0.70710678118654879 0 0.70710678118654879 0.70710678118654646 0 0 0 1</Rotation>
+<Translation>-0.0038610977323651763 0.019798543521325606 0.029999999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="p0-1" uid="p0-1" entityUid="p0*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00073110345601590243 -0.0032880108688098323 0.029999999999999999</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="重合1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>grd-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>p0-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>grd-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>p0-1</Uid>
+</InstancePath>
+<Position>0 0.019999999999999997 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>p0-1</Uid>
+</InstancePath>
+<Position>-0.014999999999999998 0.0057867965644035624 -0.016500000000000004</Position>
+<Axis>-0.38268343236509056 0.92387953251128652 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>p0-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>p0-1</Uid>
+</InstancePath>
+<Position>0 0.012000000000000005 0</Position>
+<Axis>-0.38268343236509061 0.92387953251128652 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>p0-4</Uid>
+</InstancePath>
+<Position>0 0.02 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>p0-4</Uid>
+</InstancePath>
+<Position>-0.014999999999999999 0.0057867965644035632 -0.016500000000000004</Position>
+<Axis>-0.38268343236509061 0.92387953251128663 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>p0-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>p0-4</Uid>
+</InstancePath>
+<Position>0 0.012000000000000007 0</Position>
+<Axis>-0.38268343236509067 0.92387953251128652 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>p0-5</Uid>
+</InstancePath>
+<Position>0 0.020000000000000011 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="grd" uid="grd*:*默认" version="150">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="grd.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013571680263507909</Mass>
+<CenterOfMass>0 0.0015000000000000033 0</CenterOfMass>
+<Inertia>1.0484123003559863e-07 2.0764670803167099e-07 1.0484123003559863e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="grd_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.88" g="0.88" b="0.88" a="1"/>
+<Emissive r="0.20999999999999999" g="0.20999999999999999" b="0.20999999999999999" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="p0" uid="p0*:*默认" version="181">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="p0.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0054287698429147111</Mass>
+<CenterOfMass>0.0026405984187111535 0.0065470012140610625 1.0869302037870128e-07</CenterOfMass>
+<Inertia>5.1444094528555649e-07 7.9272963228251584e-07 4.7658895211121989e-07 -4.556174002934046e-13 7.8905263410659161e-12 -7.8168532039484705e-08</Inertia>
+</MassProperties>
+<GeometryFile name="p0_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="0.88" g="0.88" b="0.88" a="1"/>
+<Emissive r="0.20999999999999999" g="0.20999999999999999" b="0.20999999999999999" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

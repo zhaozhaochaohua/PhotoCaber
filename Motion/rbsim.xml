@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="09/11/21||12:24:36" using="Simscape Multibody Link Version 7.2" from="SolidWorks 28.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="sim" uid="sim" version="184">
+<AssemblyFile name="sim.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="basep-1" uid="basep-1" grounded="true" entityUid="basep*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0053872053872053849 -0.0041265993265993265 0</Translation>
+</Transform>
+</Instance>
+<Instance name="bar23-1" uid="bar23-1" entityUid="bar23*:*默认">
+<Transform>
+<Rotation>-0.91821645483556191 0.10676536016298178 -0.38141801207924231 0.04482069912892897 0.9848077530122078 0.16776410383821783 0.39353481040284893 0.13694833871323558 -0.9090519817507019</Rotation>
+<Translation>0.001965398371684109 0.033771029790124862 0.10046956167241503</Translation>
+</Transform>
+</Instance>
+<Instance name="motor2-1" uid="motor2-1" entityUid="motor2*:*默认">
+<Transform>
+<Rotation>0.57381061477250583 0 0.81898802089798539 0 1 0 -0.81898802089798539 0 0.57381061477250583</Rotation>
+<Translation>0.0015993265993265047 -0.022405726746552279 0.099999999999999922</Translation>
+</Transform>
+</Instance>
+<Instance name="bar2p-1" uid="bar2p-1" entityUid="bar2p*:*默认">
+<Transform>
+<Rotation>-0.81758658074744806 -0.025154109127060544 -0.57525598977822101 0.16533668067971885 -0.9672298393957941 -0.19269203357741307 -0.55155776216413588 -0.25265333676088686 0.79495303409703422</Rotation>
+<Translation>0.033711522113025728 0.039800249765008282 0.062620648297445611</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="0.25"/>
+<Emissive r="0" g="0" b="0" a="0.25"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="bar1p-1" uid="bar1p-1" entityUid="bar1p*:*默认">
+<Transform>
+<Rotation>0.78865405069732941 0 0.61483720472877534 0 1 0 -0.61483720472877534 0 0.78865405069732941</Rotation>
+<Translation>-0.031266854312391269 0.010467676767677105 0.062223424615918031</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="0.25"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="0.25"/>
+<Emissive r="0" g="0" b="0" a="0.25"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="bar3p-1" uid="bar3p-1" entityUid="bar3p*:*默认">
+<Transform>
+<Rotation>0.48219362333141513 0.027175699147377282 -0.87564307282954756 -0.45061736113611844 0.8648521670149617 -0.22130233404156827 0.75128776341774828 0.50129054507877557 0.42927204189579077</Rotation>
+<Translation>0.044750977495477309 0.06618425685260701 0.082571930821928527</Translation>
+</Transform>
+</Instance>
+<Instance name="motor3-1" uid="motor3-1" entityUid="motor3*:*默认">
+<Transform>
+<Rotation>0.74421852648973941 0 0.66793621314421991 0 1 0 -0.66793621314421991 0 0.74421852648973941</Rotation>
+<Translation>0.001599326599326346 -0.027813529516667084 0.10000000000000003</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="同心1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>basep-1</Uid>
+</InstancePath>
+<Position>0.0069865319865319853 0.0031127946127952992 0.10000000000000003</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bar1p-1</Uid>
+</InstancePath>
+<Position>0.0026936026936026994 0.008518518518518866 0.050000000000000003</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>basep-1</Uid>
+</InstancePath>
+<Position>0.0069865319865319853 -0.0068872053872047019 0.10000000000000003</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bar1p-1</Uid>
+</InstancePath>
+<Position>0.0026936026936026994 -0.021481481481481133 0.050000000000000003</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bar1p-1</Uid>
+</InstancePath>
+<Position>0.0026936026936027063 0.013033038765145062 0.04878446275633147</Position>
+<Axis>0 0.98480775301220791 0.17364817766693122</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bar2p-1</Uid>
+</InstancePath>
+<Position>0.0040824915824915833 0.0073901339100976571 0.050996201669194732</Position>
+<Axis>0 -0.989821487042019 -0.14231452417067603</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bar1p-1</Uid>
+</InstancePath>
+<Position>0.0026936026936027063 0.013033038765145062 0.04878446275633147</Position>
+<Axis>0 0.98480775301220791 0.17364817766693122</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bar2p-1</Uid>
+</InstancePath>
+<Position>0.0040824915824915833 0.0073901339100976571 0.050996201669194732</Position>
+<Axis>0 0.989821487042019 0.14231452417067603</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bar2p-1</Uid>
+</InstancePath>
+<Position>0.0040824915824915972 -0.0029324673280199665 0.049512039017001297</Position>
+<Axis>0 -0.98982148704201922 -0.1423145241706758</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bar23-1</Uid>
+</InstancePath>
+<Position>0 0.0070000000000000062 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bar2p-1</Uid>
+</InstancePath>
+<Position>0.0040824915824915903 -0.0098612177373140902 0.048515837347806567</Position>
+<Axis>0 -0.98982148704201922 -0.1423145241706758</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bar23-1</Uid>
+</InstancePath>
+<Position>0 0.0070000000000000062 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>basep-1</Uid>
+</InstancePath>
+<Position>0.0069865319865319853 0.0031127946127952992 0.10000000000000003</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor2-1</Uid>
+</InstancePath>
+<Position>0 0.040000000000000001 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="距离1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>basep-1</Uid>
+</InstancePath>
+<Position>0.0069865319865319853 -0.0068872053872047019 0.10000000000000003</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="同心5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>basep-1</Uid>
+</InstancePath>
+<Position>0.0069865319865319853 0.0031127946127952992 0.10000000000000003</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor3-1</Uid>
+</InstancePath>
+<Position>0 0.050000000000000003 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="距离2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>basep-1</Uid>
+</InstancePath>
+<Position>0.0069865319865319853 -0.0068872053872047019 0.10000000000000003</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="同心6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bar2p-1</Uid>
+</InstancePath>
+<Position>0.004082491582490605 -0.01761040664754375 0.049007558000251139</Position>
+<Axis>1.1102230246251565e-15 -0.98982148704202011 0.1423145241706682</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bar3p-1</Uid>
+</InstancePath>
+<Position>0.0037828773110085909 -0.0061852533985965602 0.049999999999999989</Position>
+<Axis>-0.17364817766693152 0.98480775301220802 -1.3877787807814457e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bar2p-1</Uid>
+</InstancePath>
+<Position>0.0040824915824906188 -0.024539157056837888 0.050003759669445827</Position>
+<Axis>1.1379786002407855e-15 -0.98982148704202033 0.14231452417066817</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bar3p-1</Uid>
+</InstancePath>
+<Position>-0.022432659932659936 -0.0036997736452227536 0.0089999999999999906</Position>
+<Axis>0.17364817766693141 -0.9848077530122078 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="bar1p" uid="bar1p*:*默认" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bar1p.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.024082522801650012</Mass>
+<CenterOfMass>0.0060503594515492042 0.0031557120451428545 0.048722948719635346</CenterOfMass>
+<Inertia>9.064139587359822e-06 1.2481278165669899e-05 8.7434986398824508e-06 4.8683429687008065e-07 -1.0325811086164163e-07 7.7905117084132033e-07</Inertia>
+</MassProperties>
+<GeometryFile name="bar1p_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bar23" uid="bar23*:*默认" version="149">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bar23.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0080896010829937161</Mass>
+<CenterOfMass>0 0.00019902912621359354 0</CenterOfMass>
+<Inertia>5.4208206655108167e-07 7.1373058098743142e-07 5.4208206655108167e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="bar23_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Specular r="0.24901960784313726" g="0.24901960784313726" b="0.24901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bar2p" uid="bar2p*:*默认" version="116">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bar2p.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14371735848358433</Mass>
+<CenterOfMass>0.0040824953757536975 -0.0077480281127881769 0.04938260441693313</CenterOfMass>
+<Inertia>3.8767933072208531e-05 4.8094836418705317e-05 3.9110757213005165e-05 2.9837885465436088e-07 -6.8139135404391562e-11 -6.6310931403372533e-12</Inertia>
+</MassProperties>
+<GeometryFile name="bar2p_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bar3p" uid="bar3p*:*默认" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="bar3p.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.96407080719322158</Mass>
+<CenterOfMass>-0.035077147387096011 0.047133609388484217 0.042614367314008951</CenterOfMass>
+<Inertia>0.0012996067427355912 0.0027074740618201571 0.0023783394201544231 -2.6865506298984208e-05 0.00023074886125407855 1.8027205581872661e-05</Inertia>
+</MassProperties>
+<GeometryFile name="bar3p_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="basep" uid="basep*:*默认" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="basep.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.07590854517622761</Mass>
+<CenterOfMass>0.006986531986532 -0.0019164452430875385 0.10000000000000003</CenterOfMass>
+<Inertia>5.1771239381296635e-05 0.00011969713080530152 7.1211239381296516e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="basep_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor2" uid="motor2*:*默认" version="166">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.012220706753376664</Mass>
+<CenterOfMass>0 0.01958233111151983 0</CenterOfMass>
+<Inertia>3.1663347011852889e-06 2.982799438626781e-06 3.1663347011852885e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motor2_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Specular r="0.24901960784313726" g="0.24901960784313726" b="0.24901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor3" uid="motor3*:*默认" version="155">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0067042895759430723</Mass>
+<CenterOfMass>0 0.024666429276051408 0</CenterOfMass>
+<Inertia>1.6635156798086126e-06 4.6946959590115904e-07 1.6635156798086126e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motor3_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Diffuse r="0.49803921568627452" g="0.49803921568627452" b="0.49803921568627452" a="1"/>
+<Specular r="0.24901960784313726" g="0.24901960784313726" b="0.24901960784313726" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

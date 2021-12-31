@@ -1,0 +1,20 @@
+\t (00:01:30) allegro 17.4 S012 Windows SPB 64-bit Edition
+\t (00:01:30)     Journal start - Thu Nov  4 01:12:17 2021
+\t (00:01:30)         Host=DESKTOP-A5RKU1T User=HUA Pid=150816 CPUs=8
+\t (00:01:30) CmdLine= C:\CadenceSPB\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:01:30) 
+\t (00:01:30) Starting new design...
+\i (00:01:30) trapsize 425
+\i (00:01:30) trapsize 425
+\i (00:01:31) generaledit 
+\i (00:01:41) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:03:40) open 
+\e (00:03:40) Do you want to save the changes you made to E.dra?
+\i (00:03:43) fillin no 
+\i (00:03:49) fillin "D:/Workspace_2021/AutoPhotoStation/LED_Matrix/hardware/libBuilder/C0402.dra"
+\i (00:03:49) cd "D:/Workspace_2021/AutoPhotoStation/LED_Matrix/hardware/libBuilder"
+\i (00:03:49) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged E
+\t (00:03:49) Opening existing design...
+\i (00:03:50) fillin yes 
+\i (00:03:50) trapsize 223
+\t (00:03:50)     Journal end - Thu Nov  4 01:14:37 2021

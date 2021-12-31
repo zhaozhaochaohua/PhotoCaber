@@ -1,0 +1,12 @@
+Constrained Instances: 'motor2-1', 'bar2p-1'
+Constraint Name: ³İÂÖÅäºÏ1
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'motor3-1', 'bar23-1'
+Constraint Name: ³İÂÖÅäºÏ2
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------
+Constrained Instances: 'bar3p-1', 'bar23-1'
+Constraint Name: ³İÂÖÅäºÏ3
+Error Details: Constraint is not supported. The constraint has been exported as unknown constraint.
+---------------------------------------------------------------------------------

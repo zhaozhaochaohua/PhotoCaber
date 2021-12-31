@@ -1,0 +1,582 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:/Workspace_2021/AutoPhotoStation/ES/Cadence/PCB/MotorControl.brd          |
+|                                                    Mon Dec 27 16:57:33 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  5V           pins ADDED TO this new net
+                                 C12.1          C26.2          C27.2          
+                                 C29.2          J3.4           U2.1           
+                                 U3.3           U4.11          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAN_H        pins ADDED TO this new net
+                                 J4.1           R21.1          U3.7           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAN_L        pins ADDED TO this new net
+                                 J4.2           R22.2          U3.6           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAN_RX       pins ADDED TO this new net
+                                 U1.47          U3.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAN_TX       pins ADDED TO this new net
+                                 U1.48          U3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GHS1         pins ADDED TO this new net
+                                 Q1.4           R13.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GHS2         pins ADDED TO this new net
+                                 Q3.4           R15.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GHS3         pins ADDED TO this new net
+                                 Q6.4           R17.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GLS1         pins ADDED TO this new net
+                                 Q2.4           R14.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GLS2         pins ADDED TO this new net
+                                 Q4.4           R16.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GLS3         pins ADDED TO this new net
+                                 Q5.4           R18.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.2           C2.2           C3.2           
+                                 C4.2           C5.2           C6.1           
+                                 C7.1           C8.1           C9.1           
+                                 C10.1          C11.1          C12.2          
+                                 C13.1          C14.2          C15.2          
+                                 C16.2          C17.1          C19.2          
+                                 C20.2          C23.2          C24.2          
+                                 C25.1          C26.1          C27.1          
+                                 C28.2          C29.1          C30.1          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:/Workspace_2021/AutoPhotoStation/ES/Cadence/PCB/MotorControl.brd          |
+|                                                    Mon Dec 27 16:57:33 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C31.1          C32.1          C33.1          
+                                 D1.1           J1.1           J2.4           
+                                 J3.5           J6.3           Q5.1           
+                                 Q5.2           Q5.3           R1.2           
+                                 R2.2           R5.2           R9.2           
+                                 R12.2          R20.2          R29.2          
+                                 U1.32          U1.65          U2.3           
+                                 U3.2           U3.8           U4.5           
+                                 U4.13          X1.2           X1.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HALL_1       pins ADDED TO this new net
+                                 R26.2          U1.57          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HALL_2       pins ADDED TO this new net
+                                 R27.2          U1.58          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  HALL_3       pins ADDED TO this new net
+                                 R28.2          U1.59          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MOT_A        pins ADDED TO this new net
+                                 C18.2          J5.1           Q1.1           
+                                 Q1.2           Q1.3           Q2.5           
+                                 Q2.6           Q2.7           Q2.8           
+                                 U1.42          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MOT_B        pins ADDED TO this new net
+                                 C21.2          J5.2           Q3.1           
+                                 Q3.2           Q3.3           Q4.5           
+                                 Q4.6           Q4.7           Q4.8           
+                                 U1.39          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MOT_C        pins ADDED TO this new net
+                                 C22.2          J5.3           Q5.5           
+                                 Q5.6           Q5.7           Q5.8           
+                                 Q6.1           Q6.2           Q6.3           
+                                 U1.36          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N16444       pins ADDED TO this new net
+                                 D1.2           L1.1           U1.62          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17258       pins ADDED TO this new net
+                                 C18.1          U1.41          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17302       pins ADDED TO this new net
+                                 R13.2          U1.43          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:/Workspace_2021/AutoPhotoStation/ES/Cadence/PCB/MotorControl.brd          |
+|                                                    Mon Dec 27 16:57:33 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N17340       pins ADDED TO this new net
+                                 R14.2          U1.29          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17366       pins ADDED TO this new net
+                                 C21.1          U1.38          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17392       pins ADDED TO this new net
+                                 R15.2          U1.40          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17424       pins ADDED TO this new net
+                                 R16.2          U1.30          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17450       pins ADDED TO this new net
+                                 C22.1          U1.35          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17476       pins ADDED TO this new net
+                                 R17.2          U1.37          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N17572       pins ADDED TO this new net
+                                 R18.2          U1.31          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N121362      pins ADDED TO this new net
+                                 C25.2          R21.2          R22.1          
+                                 U3.5           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N124418      pins ADDED TO this new net
+                                 C28.1          U4.12          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N126073      pins ADDED TO this new net
+                                 C30.2          D3.1           J3.1           
+                                 R23.2          R26.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N126077      pins ADDED TO this new net
+                                 C31.2          D4.1           J3.2           
+                                 R24.2          R27.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N126081      pins ADDED TO this new net
+                                 C32.2          D5.1           J3.3           
+                                 R25.2          R28.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NC1          pins ADDED TO this new net
+                                 U1.34          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NC2          pins ADDED TO this new net
+                                 U1.33          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:/Workspace_2021/AutoPhotoStation/ES/Cadence/PCB/MotorControl.brd          |
+|                                                    Mon Dec 27 16:57:33 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  NRST         pins ADDED TO this new net
+                                 C24.1          J2.1           U1.8           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NTC          pins ADDED TO this new net
+                                 C33.2          NTC1.2         R29.1          
+                                 U1.21          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPN1         pins ADDED TO this new net
+                                 R5.1           R6.2           U1.16          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPN2         pins ADDED TO this new net
+                                 R9.1           R10.2          U1.22          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPO1         pins ADDED TO this new net
+                                 R6.1           U1.15          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPO2         pins ADDED TO this new net
+                                 R10.1          U1.19          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPP1         pins ADDED TO this new net
+                                 R3.2           R4.1           U1.14          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OPP2         pins ADDED TO this new net
+                                 R7.2           R8.1           U1.20          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OSC_IN       pins ADDED TO this new net
+                                 C19.1          U1.6           X1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OSC_OUT      pins ADDED TO this new net
+                                 C20.1          U1.7           X1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SCREF        pins ADDED TO this new net
+                                 R19.1          R20.1          U1.52          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SENSE_AP     pins ADDED TO this new net
+                                 Q2.1           Q2.2           Q2.3           
+                                 R1.1           R4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SENSE_BP     pins ADDED TO this new net
+                                 Q4.1           Q4.2           Q4.3           
+                                 R2.1           R8.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPI_CLK      pins ADDED TO this new net
+                                 U1.54          U4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  D:/Workspace_2021/AutoPhotoStation/ES/Cadence/PCB/MotorControl.brd          |
+|                                                    Mon Dec 27 16:57:33 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  SPI_MISO     pins ADDED TO this new net
+                                 U1.55          U4.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPI_MOSI     pins ADDED TO this new net
+                                 U1.56          U4.4           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPI_NCS      pins ADDED TO this new net
+                                 U1.53          U4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SWCLK        pins ADDED TO this new net
+                                 J2.2           U1.50          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SWDIO        pins ADDED TO this new net
+                                 J2.3           U1.49          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART_RX      pins ADDED TO this new net
+                                 J6.2           U1.46          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UART_TX      pins ADDED TO this new net
+                                 J6.1           U1.45          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VBUS         pins ADDED TO this new net
+                                 C17.2          D2.1           R11.2          
+                                 R12.1          U1.25          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this new net
+                                 C10.2          L1.2           U1.63          
+                                 U1.64          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD          pins ADDED TO this new net
+                                 C4.1           C5.1           C6.2           
+                                 C7.2           C8.2           C9.2           
+                                 C23.1          D2.2           D3.2           
+                                 D4.2           D5.2           NTC1.1         
+                                 R3.1           R7.1           R19.2          
+                                 R23.1          R24.1          R25.1          
+                                 U1.1           U1.2           U1.26          
+                                 U1.27          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VM           pins ADDED TO this new net
+                                 C1.1           C2.1           C3.1           
+                                 C11.2          C13.2          C14.1          
+                                 C15.1          C16.1          J1.2           
+                                 Q1.5           Q1.6           Q1.7           
+                                 Q1.8           Q3.5           Q3.6           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  D:/Workspace_2021/AutoPhotoStation/ES/Cadence/PCB/MotorControl.brd          |
+|                                                    Mon Dec 27 16:57:33 2021  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 Q3.7           Q3.8           Q6.5           
+                                 Q6.6           Q6.7           Q6.8           
+                                 R11.1          U1.61          U2.2           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  D:/Workspace_2021/AutoPhotoStation/ES/Cadence/PCB/MotorControl.brd          |
+|                                                    Mon Dec 27 16:57:33 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ AS5047P_TSSOP-14_AS5047P
+ CON2_PH2-2_CON2
+ CON2_TP2-6040_CON2
+ CON3_PH3-2_CON3
+ CON3_TP3-6040_CON3
+ CON4_PH4-2_CON4
+ CON 5_PH5-2_CON 5
+ CP_C10X10_220UF 100
+ CP_C3216_10UF
+ CRYSTAL-PASSIVE_SMD3225-4_24MHZ
+ C_C0402_1NF
+ C_C0402_1UF
+ C_C0402_4.7UF
+ C_C0402_10UF
+ C_C0402_18PF
+ C_C0402_33NF
+ C_C0402_47NF
+ C_C0402_100NF
+ C_C0603_1UF 25V
+ C_C0603_1UF
+ C_C0805_10UF 25V
+ C_C0805_220NF 100V
+ DIODE SCHOTTKY_DO-214AC_DIODE SCHOTTKY
+ DIODE SCHOTTKY_SOD-523_DIODE SCHOTTKY
+ INDUCTOR_L4030_18UH
+ LM3480_SOT-23-3_LM3480-5
+ MOS_TDSON-8_BSC0702LS
+ NTC_R0603_10K
+ R_R0402_1K8
+ R_R0402_1K
+ R_R0402_10K
+ R_R0402_16K
+ R_R0402_22K
+ R_R0402_33K
+ R_R0402_60
+ R_R0603_5K
+ R_R0603_75K
+ R_R0603_33
+ R_R2512_0.005
+ STSPIN32G4-AB_VFQFPN-64-9X9_STSPIN32G4
+ TJA1040_SOIC-8_TJA1040
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  D:/Workspace_2021/AutoPhotoStation/ES/Cadence/PCB/MotorControl.brd          |
+|                                                    Mon Dec 27 16:57:33 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CP_C10X10_220UF 100   
+ C2                  CP_C10X10_220UF 100   
+ C3                  CP_C10X10_220UF 100   
+ C4                  C_C0402_10UF          
+ C5                  C_C0402_100NF         
+ C6                  C_C0402_100NF         
+ C7                  C_C0402_1UF           
+ C8                  C_C0402_1UF           
+ C9                  C_C0402_100NF         
+ C10                 C_C0805_10UF 25V      
+ C11                 C_C0603_1UF           
+ C12                 CP_C3216_10UF         
+ C13                 C_C0805_220NF 100V    
+ C14                 C_C0805_220NF 100V    
+ C15                 C_C0805_220NF 100V    
+ C16                 C_C0805_220NF 100V    
+ C17                 C_C0402_33NF          
+ C18                 C_C0603_1UF 25V       
+ C19                 C_C0402_18PF          
+ C20                 C_C0402_18PF          
+ C21                 C_C0603_1UF 25V       
+ C22                 C_C0603_1UF 25V       
+ C23                 C_C0402_100NF         
+ C24                 C_C0402_100NF         
+ C25                 C_C0402_47NF          
+ C26                 C_C0402_4.7UF         
+ C27                 C_C0402_100NF         
+ C28                 C_C0402_1UF           
+ C29                 C_C0402_100NF         
+ C30                 C_C0402_1NF           
+ C31                 C_C0402_1NF           
+ C32                 C_C0402_1NF           
+ C33                 C_C0402_33NF          
+ D1                  DIODE SCHOTTKY_DO-214AC_DIODE SCHOTTKY 
+ D2                  DIODE SCHOTTKY_SOD-523_DIODE SCHOTTKY 
+ D3                  DIODE SCHOTTKY_SOD-523_DIODE SCHOTTKY 
+ D4                  DIODE SCHOTTKY_SOD-523_DIODE SCHOTTKY 
+ D5                  DIODE SCHOTTKY_SOD-523_DIODE SCHOTTKY 
+ J1                  CON2_TP2-6040_CON2    
+ J2                  CON4_PH4-2_CON4       
+ J3                  CON 5_PH5-2_CON 5     
+ J4                  CON2_PH2-2_CON2       
+ J5                  CON3_TP3-6040_CON3    
+ J6                  CON3_PH3-2_CON3       
+ L1                  INDUCTOR_L4030_18UH   
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  D:/Workspace_2021/AutoPhotoStation/ES/Cadence/PCB/MotorControl.brd          |
+|                                                    Mon Dec 27 16:57:33 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ NTC1                NTC_R0603_10K         
+ Q1                  MOS_TDSON-8_BSC0702LS 
+ Q2                  MOS_TDSON-8_BSC0702LS 
+ Q3                  MOS_TDSON-8_BSC0702LS 
+ Q4                  MOS_TDSON-8_BSC0702LS 
+ Q5                  MOS_TDSON-8_BSC0702LS 
+ Q6                  MOS_TDSON-8_BSC0702LS 
+ R1                  R_R2512_0.005         
+ R2                  R_R2512_0.005         
+ R3                  R_R0402_33K           
+ R4                  R_R0402_1K            
+ R5                  R_R0402_1K            
+ R6                  R_R0402_16K           
+ R7                  R_R0402_33K           
+ R8                  R_R0402_1K            
+ R9                  R_R0402_1K            
+ R10                 R_R0402_16K           
+ R11                 R_R0603_75K           
+ R12                 R_R0603_5K            
+ R13                 R_R0603_33            
+ R14                 R_R0603_33            
+ R15                 R_R0603_33            
+ R16                 R_R0603_33            
+ R17                 R_R0603_33            
+ R18                 R_R0603_33            
+ R19                 R_R0402_22K           
+ R20                 R_R0402_10K           
+ R21                 R_R0402_60            
+ R22                 R_R0402_60            
+ R23                 R_R0402_10K           
+ R24                 R_R0402_10K           
+ R25                 R_R0402_10K           
+ R26                 R_R0402_1K8           
+ R27                 R_R0402_1K8           
+ R28                 R_R0402_1K8           
+ R29                 R_R0402_1K            
+ U1                  STSPIN32G4-AB_VFQFPN-64-9X9_STSPIN32G4 
+ U2                  LM3480_SOT-23-3_LM3480-5 
+ U3                  TJA1040_SOIC-8_TJA1040 
+ U4                  AS5047P_TSSOP-14_AS5047P 
+ X1                  CRYSTAL-PASSIVE_SMD3225-4_24MHZ 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  D:/Workspace_2021/AutoPhotoStation/ES/Cadence/PCB/MotorControl.brd          |
+|                                                    Mon Dec 27 16:57:33 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ C13.2                          PRIM_FILE      .\pstchip.dat
+ C14.2                          PRIM_FILE      .\pstchip.dat
+ C15.2                          PRIM_FILE      .\pstchip.dat
+ C16.2                          PRIM_FILE      .\pstchip.dat
+ C17.2                          PRIM_FILE      .\pstchip.dat
+ C18.2                          PRIM_FILE      .\pstchip.dat
+ C19.2                          PRIM_FILE      .\pstchip.dat
+ C20.2                          PRIM_FILE      .\pstchip.dat
+ C21.2                          PRIM_FILE      .\pstchip.dat
+ C22.2                          PRIM_FILE      .\pstchip.dat
+ C23.2                          PRIM_FILE      .\pstchip.dat
+ C24.2                          PRIM_FILE      .\pstchip.dat
+ C25.2                          PRIM_FILE      .\pstchip.dat
+ C26.2                          PRIM_FILE      .\pstchip.dat
+ C27.2                          PRIM_FILE      .\pstchip.dat
+ C28.2                          PRIM_FILE      .\pstchip.dat
+ C29.2                          PRIM_FILE      .\pstchip.dat
+ C30.2                          PRIM_FILE      .\pstchip.dat
+ C31.2                          PRIM_FILE      .\pstchip.dat
+ C32.2                          PRIM_FILE      .\pstchip.dat
+ C33.2                          PRIM_FILE      .\pstchip.dat
+ D1.2                           PRIM_FILE      .\pstchip.dat
+ D2.2                           PRIM_FILE      .\pstchip.dat
+ D3.2                           PRIM_FILE      .\pstchip.dat
+ D4.2                           PRIM_FILE      .\pstchip.dat
+ D5.2                           PRIM_FILE      .\pstchip.dat
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ J2.4                           PRIM_FILE      .\pstchip.dat
+ J3.5                           PRIM_FILE      .\pstchip.dat
+ J4.2                           PRIM_FILE      .\pstchip.dat
+ J5.3                           PRIM_FILE      .\pstchip.dat
+ J6.3                           PRIM_FILE      .\pstchip.dat
+ L1.2                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  D:/Workspace_2021/AutoPhotoStation/ES/Cadence/PCB/MotorControl.brd          |
+|                                                    Mon Dec 27 16:57:33 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ NTC1.2                         PRIM_FILE      .\pstchip.dat
+ Q1.3                           PRIM_FILE      .\pstchip.dat
+ Q2.3                           PRIM_FILE      .\pstchip.dat
+ Q3.3                           PRIM_FILE      .\pstchip.dat
+ Q4.3                           PRIM_FILE      .\pstchip.dat
+ Q5.3                           PRIM_FILE      .\pstchip.dat
+ Q6.3                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ R15.2                          PRIM_FILE      .\pstchip.dat
+ R16.2                          PRIM_FILE      .\pstchip.dat
+ R17.2                          PRIM_FILE      .\pstchip.dat
+ R18.2                          PRIM_FILE      .\pstchip.dat
+ R19.2                          PRIM_FILE      .\pstchip.dat
+ R20.2                          PRIM_FILE      .\pstchip.dat
+ R21.2                          PRIM_FILE      .\pstchip.dat
+ R22.2                          PRIM_FILE      .\pstchip.dat
+ R23.2                          PRIM_FILE      .\pstchip.dat
+ R24.2                          PRIM_FILE      .\pstchip.dat
+ R25.2                          PRIM_FILE      .\pstchip.dat
+ R26.2                          PRIM_FILE      .\pstchip.dat
+ R27.2                          PRIM_FILE      .\pstchip.dat
+ R28.2                          PRIM_FILE      .\pstchip.dat
+ R29.2                          PRIM_FILE      .\pstchip.dat
+ U1.2                           PRIM_FILE      .\pstchip.dat
+ U1.65                          PRIM_FILE      .\pstchip.dat
+ U2.1                           PRIM_FILE      .\pstchip.dat
+ U3.3                           PRIM_FILE      .\pstchip.dat
+ U4.8                           PRIM_FILE      .\pstchip.dat
+ X1.4                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  D:/Workspace_2021/AutoPhotoStation/ES/Cadence/PCB/MotorControl.brd          |
+|                                                    Mon Dec 27 16:57:33 2021  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :     277                                        |
+|       Comp definitions added:      41                                        |
+|       Components added      :      86                                        |
+|       Slot property added   :      87                                        |
+|                                                                              |
+|   Total ECO changes reported:     491                                        |
+|------------------------------------------------------------------------------|

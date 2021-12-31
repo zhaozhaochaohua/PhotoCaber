@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : UFQFPN32.dra                                  )
+(    Software Version : 17.4S012                                      )
+(    Date/Time        : Tue Nov  2 23:55:23 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = D:/Workspace_2021/AutoPhotoStation/LED_Matrix/hardware/pcblib
+    Name      = ufqfpn32.psm
+    User      = HUA
+    Machine   = DESKTOP-A5RKU1T
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

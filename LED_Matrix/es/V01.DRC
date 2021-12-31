@@ -1,0 +1,80 @@
+Date and Time : 11/02/21 21:57:06
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections VDD_SDIO 
+                    SCHEMATIC1, Core  (8.40, 2.70) 
+
+Checking For Unconnected Bus Nets
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector MCU_TX 
+                    SCHEMATIC1, Core  (1.30, 3.10) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector MCU_EN 
+                    SCHEMATIC1, Core  (5.50, 2.50) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector MCU_RX 
+                    SCHEMATIC1, Core  (1.30, 3.20) 
+WARNING(ORCAP-1611): Two nets in same schematic have the same name, but there is no off-page connector MCU_BOOT 
+                    SCHEMATIC1, Core  (8.00, 3.90) 
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: V01 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? J3,VCC  VCC  VCC_USB
+                    SCHEMATIC1, BAT  (3.20, 2.70) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,PGND  PGND  GND
+                    SCHEMATIC1, USB  (4.00, 1.80) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDDA  VDDA  VDD33
+                    SCHEMATIC1, Core  (6.60, 0.80) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDDA  VDDA  VDD33
+                    SCHEMATIC1, Core  (6.90, 0.80) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDDA  VDDA  VDD33
+                    SCHEMATIC1, Core  (5.50, 1.70) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDDA3P3  VDDA3P3  VDD33
+                    SCHEMATIC1, Core  (5.50, 1.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDDA3P3  VDDA3P3  VDD33
+                    SCHEMATIC1, Core  (5.50, 2.00) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD3P3_CPU  VDD3P3_CPU  VDD33
+                    SCHEMATIC1, Core  (7.50, 0.80) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDD3P3_RTC  VDD3P3_RTC  VDD33
+                    SCHEMATIC1, Core  (7.00, 3.70) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? J1,VCC  VCC  VUSB
+                    SCHEMATIC1, USB  (2.40, 1.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,VBUS  VBUS  VUSB
+                    SCHEMATIC1, USB  (4.40, 3.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U2,VREGIN  VREGIN  VUSB
+                    SCHEMATIC1, USB  (4.30, 3.90) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

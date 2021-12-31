@@ -1,0 +1,1 @@
+  -LD:/Workspace_2021/AutoPhotoStation/LED_Matrix/software/esp32/untitled/lbs  -LD:/Workspace_2021/AutoPhotoStation/LED_Matrix/software/esp32/untitled/libs  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
