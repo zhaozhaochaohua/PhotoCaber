@@ -1,15 +1,15 @@
-Date and Time : 12/30/21 21:51:21
+Date and Time : 01/02/22 21:53:22
 
 --------------------------------------------------
-Checking Schematic: SCHEMATIC1
+Checking Schematic: MC_Board
 --------------------------------------------------
 Checking Electrical Rules 
 
 Checking For Single Node Nets
 WARNING(ORCAP-1600): Net has fewer than two connections NC2 
-                    SCHEMATIC1, PAGE1  (106.68, 114.30) 
+                    MC_Board, CORE  (106.68, 114.30) 
 WARNING(ORCAP-1600): Net has fewer than two connections NC1 
-                    SCHEMATIC1, PAGE1  (104.14, 114.30) 
+                    MC_Board, CORE  (104.14, 114.30) 
 
 Checking For Unconnected Bus Nets
 
@@ -19,7 +19,7 @@ Checking Physical Rules
 Checking Pins and Pin Connections
 
 --------------------------------------------------
-Checking Schematic: SCHEMATIC1
+Checking Schematic: MC_Board
 --------------------------------------------------
 
 INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
@@ -45,31 +45,29 @@ Checking Name Property for Hierarchical Instances
 INFO(ORCAP-2211): Check High Speed Properties Syntax
 
 INFO(ORCAP-2212): Check Power Ground Mismatch
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? Q5,D  D  VM
-                    SCHEMATIC1, PAGE1  (281.94, 38.10) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? Q1,D  D  VM
-                    SCHEMATIC1, PAGE1  (180.34, 38.10) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? Q3,D  D  VM
-                    SCHEMATIC1, PAGE1  (231.14, 38.10) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? VDD  VDDA  VDD  VREF+  
-                    SCHEMATIC1, PAGE1  (111.76, 35.56) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VDDA  VDDA  VDD
-                    SCHEMATIC1, PAGE1  (129.54, 86.36) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U1,VREF+  VREF+  VDD
-                    SCHEMATIC1, PAGE1  (129.54, 88.90) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? U5,VBAT  VBAT  VDD
-                    SCHEMATIC1, PAGE1  (78.74, 223.52) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? GND  GND_SIGNAL  GND  SENSE_AN  SENSE_BN  
-                    SCHEMATIC1, PAGE1  (48.26, 93.98) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? Q6,S  S  GND
-                    SCHEMATIC1, PAGE1  (281.94, 93.98) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? Q6,S  S  GND
-                    SCHEMATIC1, PAGE1  (279.40, 93.98) 
-QUESTION(ORCAP-1589): Net has two or more aliases - possible short? Q6,S  S  GND
-                    SCHEMATIC1, PAGE1  (284.48, 93.98) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. Q1,D  D  VM
+                    MC_Board, CORE  (180.34, 38.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. Q3,D  D  VM
+                    MC_Board, CORE  (231.14, 38.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. Q5,D  D  VM
+                    MC_Board, CORE  (281.94, 38.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. VDD  VREF+  VDD  VDDA  
+                    MC_Board, CORE  (81.28, 38.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,VDDA  VDDA  VDD
+                    MC_Board, CORE  (129.54, 86.36) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,VREF+  VREF+  VDD
+                    MC_Board, CORE  (129.54, 88.90) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. U1,VBAT  VBAT  VDD
+                    MC_Board, CORE  (78.74, 223.52) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. GND  GND  GND_SIGNAL  SENSE_BN  SENSE_CN  
+                    MC_Board, CORE  (378.46, 165.10) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. Q2,S  S  GND
+                    MC_Board, CORE  (180.34, 93.98) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. Q2,S  S  GND
+                    MC_Board, CORE  (182.88, 93.98) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. Q2,S  S  GND
+                    MC_Board, CORE  (177.80, 93.98) 
 
 Reporting Unused Refdes in multiple part packages
 Part	                       Quantity	                       Reference
 -----------------------------------------------------------------------------------------
-   STSPIN32G4-AB	                       1	                       U1: A  
-   STSPIN32G4-AB	                       1	                       U5: B  

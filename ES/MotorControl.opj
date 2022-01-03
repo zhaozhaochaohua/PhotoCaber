@@ -1,12 +1,12 @@
 (ExpressProject "MotorControl"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[12/30/21]")
+  (SoftwareVersion "17.4-2019 S024 (3998392)  [12/6/2021]-[01/02/22]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
       (File "d:\eleparts\spb_data\chlib.olb"
         (Type "Schematic Library")))
-    ("Allegro Netlist Directory" "allegro")
+    ("Allegro Netlist Directory" "D:\PhotoCaber\ES\Net")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
@@ -66,11 +66,52 @@
     (DRC_Type_Mismatch "TRUE")
     (DRC_Identical_References "TRUE")
     (DRC_Run_Custom_Rules "FALSE")
-    (DRC_Report_File "D:\PHOTOCABER\ES\MOTORCONTROL.DRC"))
+    (DRC_Report_File "D:\PHOTOCABER\ES\MOTORCONTROL.DRC")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "D:\PhotoCaber\ES\BOM\MotorControl.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tFootprint")
+    (BOM_Include_File "D:\PHOTOCABER\ES\MOTORCONTROL.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "TRUE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\motorcontrol.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (DRC_Run_Simulation_Rules "TRUE")
+    (DRC_Check_Pspice_Model_Lib_Path_Online "FALSE")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\motorcontrol.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\bom\motorcontrol.bom"
+      (Type "Report"))
+    (File ".\net\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\net\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\net\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -81,29 +122,51 @@
     (Folder "Include Files"
       (Sort User)))
   (Folder "Logs")
-  (PartMRUSelector)
+  (PartMRUSelector
+    (L78L
+      (FullPartName "L78L.Normal")
+      (LibraryName "D:\ELEPARTS\SPB_DATA\CHLIB.OLB")
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "D:\PhotoCaber\ES\motorcontrol.dsn")
-      (Path "Design Resources" "D:\PhotoCaber\ES\motorcontrol.dsn" "MC_Board")
+      (Path "Design Resources" "d:\photocaber\es\motorcontrol.dsn")
       (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources"))
+      (Path "Design Resources" "Library" "d:\eleparts\spb_data\chlib.olb")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 321"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1587"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 848 28 343")
-        (Scroll "0 0")
-        (Zoom "93")
+        (Placement "44 0 1 -1 -1 5 28 5 834 28 1609")
+        (Scroll "0 -424")
+        (Zoom "60")
         (Occurrence "/"))
       (Path "D:\PHOTOCABER\ES\MOTORCONTROL.DSN")
       (Schematic "MC_Board")
-      (Page "CORE")))
-  (MPSSessionName "22980"))
+      (Page "CORE"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 834 28 1609"))
+      (Path "D:\PhotoCaber\ES\Net\pstchip.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 834 28 1609"))
+      (Path "D:\PhotoCaber\ES\Net\pstxprt.dat")
+      (Scroll "0"))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 834 28 1609"))
+      (Path "D:\PhotoCaber\ES\Net\pstxnet.dat")
+      (Scroll "0")))
+  (MPSSessionName "22980")
+  (ISPCBBASICLICENSE "false"))

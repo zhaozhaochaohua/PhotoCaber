@@ -1,46 +1,55 @@
-\t (00:00:59) allegro 17.4 P001 Windows SPB 64-bit Edition
-\t (00:00:59)     Journal start - Mon Dec 27 23:36:58 2021
-\t (00:00:59)         Host=DESKTOP-EICKEGA User=Administrator Pid=6752 CPUs=12
-\t (00:00:59) CmdLine= D:\Cadence\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
-\t (00:00:59) 
-\d (00:00:59) Design opened: E:/Soft/Cadence17.4/Cadence/PCB/MotorControl.brd
-\i (00:00:59) generaledit 
-\i (00:01:01) trapsize 2563
-\i (00:01:02) zoom out 1 
-\i (00:01:02) setwindow pcb
-\i (00:01:02) zoom out -9.4599 18.3281
-\i (00:01:02) trapsize 5000
-\i (00:01:02) zoom out 1 
-\i (00:01:02) setwindow pcb
-\i (00:01:02) zoom out 25.0000 17.1000
-\i (00:01:02) trapsize 5000
-\i (00:01:02) zoom out 1 
-\i (00:01:02) setwindow pcb
-\i (00:01:02) zoom out 25.0000 17.0000
-\i (00:01:02) trapsize 5000
-\i (00:01:02) zoom in 1 
-\i (00:01:02) setwindow pcb
-\i (00:01:02) zoom in -2.9000 6.2000
-\i (00:01:02) trapsize 2500
-\i (00:01:02) zoom in 1 
-\i (00:01:02) setwindow pcb
-\i (00:01:02) zoom in -22.0000 6.2000
-\i (00:01:02) trapsize 1250
-\i (00:01:03) zoom out 1 
-\i (00:01:03) setwindow pcb
-\i (00:01:03) zoom out -19.5250 7.4250
-\i (00:01:03) trapsize 2500
-\i (00:01:03) zoom out 1 
-\i (00:01:03) setwindow pcb
-\i (00:01:03) zoom out -19.5250 7.4250
-\i (00:01:03) trapsize 5000
-\i (00:01:07) open 
-\i (00:01:36) fillin "E:/Soft/Cadence17.4/SPB_Data/VFQFPN-64-9X9.dra"
-\i (00:01:36) cd "E:/Soft/Cadence17.4/SPB_Data"
-\t (00:01:36) Opening existing design...
-\i (00:01:38) fillin yes 
-\i (00:01:38) trapsize 513
-\i (00:01:38) trapsize 522
-\i (00:01:38) trapsize 513
-\i (00:01:38) trapsize 518
-\t (00:01:38)     Journal end - Mon Dec 27 23:37:37 2021
+\t (00:00:01) allegro 17.4 S024 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Mon Jan  3 17:18:56 2022
+\t (00:00:01)         Host=HUA User=22980 Pid=12844 CPUs=8
+\t (00:00:01) CmdLine= C:\Cadence\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged MotorControlBoard
+\d (00:00:04) Design opened: D:/PhotoCaber/ES/PCB/MotorControlBoard.brd
+\i (00:00:04) trapsize 2188
+\i (00:00:04) trapsize 2227
+\i (00:00:04) trapsize 2267
+\i (00:00:04) trapsize 2304
+\i (00:00:05) generaledit 
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in -19.4470 11.7397
+\i (00:00:07) trapsize 1152
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in -19.4470 11.7397
+\i (00:00:07) trapsize 576
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in -19.4009 11.6821
+\i (00:00:07) trapsize 288
+\i (00:00:07) prepopup -17.2580 10.9621
+\i (00:00:08) pop dyn_option_select @:@Move 
+\i (00:00:08) move 
+\t (00:00:08) last pick:  -17.2000 11.0000
+\t (00:00:08) last pick:  -16.6000 9.4000
+\t (00:00:08) Moving L1 / INDUCTOR_L4030_18UH / L4030.
+\t (00:00:08) Pick new location for the element(s).
+\i (00:00:12) pick grid -16.8721 9.4529
+\t (00:00:12) last pick:  -16.8000 9.4000
+\i (00:00:12) generaledit 
+\i (00:02:34) pick grid -16.4458 10.8066
+\t (00:02:34) last pick:  -16.4000 10.8000
+\i (00:02:34) prepopup -16.4458 10.8066
+\i (00:02:35) pop dyn_option_select @:@Move 
+\i (00:02:35) move 
+\t (00:02:35) last pick:  -16.4000 10.8000
+\t (00:02:35) last pick:  -16.8000 9.4000
+\t (00:02:35) Moving L1 / INDUCTOR_L4030_18UH / L4030.
+\t (00:02:35) Pick new location for the element(s).
+\i (00:02:36) prepopup -16.7454 10.7835
+\i (00:02:37) oops 
+\t (00:02:37) last pick:  -16.4000 10.8000
+\i (00:02:37) generaledit 
+\i (00:02:38) pick grid -13.1336 13.6061
+\t (00:02:38) last pick:  -13.2000 13.6000
+\i (00:02:39) exit 
+\e (00:02:39) Do you want to save the changes you made to MotorControlBoard.brd?
+\i (00:02:41) fillin no 
+\t (00:02:41)     Journal end - Mon Jan  3 17:21:37 2022
