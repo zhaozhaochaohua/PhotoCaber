@@ -1,0 +1,15 @@
+{ Using PSTWRITER 17.4.0 d001Jan-02-2022 at 21:53:52 }
+
+#1 WARNING(ORCAP-36042): Pin "S" is renamed to "S#1" as visible power pin of same name already exists in Package MOS , Q1: MC_Board, CORE (172.72, 40.64).
+#2 WARNING(ORCAP-36042): Pin "S" is renamed to "S#2" as visible power pin of same name already exists in Package MOS , Q1: MC_Board, CORE (172.72, 40.64).
+#3 WARNING(ORCAP-36042): Pin "S" is renamed to "S#3" as visible power pin of same name already exists in Package MOS , Q1: MC_Board, CORE (172.72, 40.64).
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... D:\PhotoCaber\ES\Net\pstchip.dat
+
+Loading... D:\PhotoCaber\ES\Net\pstchip.dat
+
+Loading... D:\PhotoCaber\ES\Net\pstxprt.dat
+
+Loading... D:\PhotoCaber\ES\Net\pstxnet.dat
+packaging the design view...
