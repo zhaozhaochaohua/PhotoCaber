@@ -1,6 +1,8 @@
 #include <Arduino.h>
 #include "SPI.h"
 #include "ESP32DMASPIMaster.h"
+#include "AsyncUDP.h"
+#include "WiFi.h"
 
 #if CONFIG_FREERTOS_UNICORE
 #define ARDUINO_RUNNING_CORE 0
@@ -8,50 +10,64 @@
 #define ARDUINO_RUNNING_CORE 1
 #endif
 
-ESP32DMASPI::Master vspi;
+// SPI parameters
 ESP32DMASPI::Master hspi;
 
 static const uint32_t  BUFFER_SIZE = 24*16*9*9;
-uint8_t* vbuf;
 uint8_t* hbuf;
 
-void vspiCommand(void *pvParameters);
+// WiFi parameters
+const char * ssid = "HUAA";
+const char * password = "12345678";
+uint16_t udp_port = 1777;
+AsyncUDP udp;
+
+void sdTask(void *pvParameters);
 void hspiCommand(void *pvParameters);
+void onPacketCallback(AsyncUDPPacket packet)
+{
+    Serial.print
+}
 
 static const int spiClk = 2000000;
 
 void setup()
 {
-    vbuf = vspi.allocDMABuffer(BUFFER_SIZE);
-    hbuf = hspi.allocDMABuffer(BUFFER_SIZE);
+    // Serial
+    Serial.begin(115200);
 
-    vspi.setDataMode(SPI_MODE1);
-    vspi.setFrequency(spiClk);
-    vspi.setMaxTransferSize(BUFFER_SIZE);
-    vspi.setDMAChannel(1);
-    vspi.setQueueSize(1);
+    // SPI
+    hbuf = hspi.allocDMABuffer(BUFFER_SIZE);
     hspi.setDataMode(SPI_MODE1);
     hspi.setFrequency(spiClk);
     hspi.setMaxTransferSize(BUFFER_SIZE);
     hspi.setDMAChannel(2);
     hspi.setQueueSize(1);
-    vspi.begin(VSPI);
     hspi.begin(HSPI);
     for(int i = 0; i < BUFFER_SIZE; i++)
     {
-        vbuf[i] = 0b01010100;
-        hbuf[i] = vbuf[i];
+        hbuf[i] = 0b01010100;
     }
 
-    xTaskCreate(vspiCommand,
-                "vspiCommand",
+    // WiFi udp
+    WiFi.mode(WIFI_STA);
+    WiFi.begin(ssid, password);
+    while (!WiFi.isConnected())
+    {
+        delay(1000);
+        Serial.println("Connecting...");
+    }
+    while (!udp.listen(udp_port));
+    udp.onPacket()
+    xTaskCreate(hspiCommand,
+                "hspiCommand",
                 1024,
                 NULL,
                 2,
                 NULL);
-    xTaskCreate(hspiCommand,
-                "hspiCommand",
-                1024,
+    xTaskCreate(sdTask,
+                "sdTask",
+                512,
                 NULL,
                 2,
                 NULL);
@@ -61,11 +77,12 @@ void loop()
 {
 }
 
-void vspiCommand(void *pvParameters)
+
+void udpListen(void *pvParameters)
 {
-    for(;;){
-        vspi.transfer(vbuf, BUFFER_SIZE);
-        vTaskDelay(pdMS_TO_TICKS(100));
+    for(;;)
+    {
+
     }
 }
 
@@ -75,5 +92,14 @@ void hspiCommand(void *pvParameters)
     {
         hspi.transfer(hbuf, BUFFER_SIZE);
         vTaskDelay(pdMS_TO_TICKS(100));
+    }
+}
+
+void sdTask(void *pvParameters)
+{
+    for(;;)
+    {
+        Serial.println("sd task");
+        vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }
